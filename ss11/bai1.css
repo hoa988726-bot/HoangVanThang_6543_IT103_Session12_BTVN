@@ -131,7 +131,13 @@ body {
     width: 90%;
 }
 @media (max-width: 768px) {
-    .suggest-list {
+    .list {
         flex-direction: column;
     }
 }
+@media (max-width: 768px) {
+    .tune {
+        flex-direction: column;
+    }
+}
+
