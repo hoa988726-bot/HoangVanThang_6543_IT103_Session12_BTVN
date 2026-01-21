@@ -130,3 +130,8 @@ body {
     border: none;
     width: 90%;
 }
+@media (max-width: 768px) {
+    .suggest-list {
+        flex-direction: column;
+    }
+}
