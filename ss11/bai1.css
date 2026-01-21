@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hearder{
+    background-color: #0b62e3;
+    color:white;
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.seach{
+    padding: 6px 12px;
+    border-radius: 15px;
+    opacity: 0.5;
+    width: 250px;
+    border: none;
+}
+.tobar a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+main{
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.come{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+body {
+    margin: 0;
+    background-color: #f5f8fc; 
+    font-family: Arial, sans-serif;
+}
+.nn{
+    margin: 20px 0;
+    color: #0d6efd;
+}
+.tune{
+    display:flex;
+    gap: 20px;
+}
+.course{
+    border-radius: 15px;
+    background-color: #ffff;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+.course img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.course p{
+    padding: 15px;
+    color: #555;
+}
+.course h4{
+    padding: 10px;
+}
+.course button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    width: 90%;
+}
+.list{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.ll{
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.ll button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    width: 90%;
+}
+.ok{
+    padding: 20px;
+}
+.ok p{
+    color: #555
+}
+.ll:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+.lo{
+     background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.lo:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+.lo p{
+    color: #555
+}
+.lo button{
+     margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    width: 90%;
+}
